@@ -1,0 +1,61 @@
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+.buttons {
+  margin: 10px auto;
+  text-align: center;
+} 
+
+.btn{
+  margin: 5px;
+  font-size: 14px !important;
+}
+
+h5{
+  text-align: center;
+}
+
+.gameTable{
+  margin: 0 auto;
+  width: 850px;
+  height: 425px; 
+  background-color: #35654d;;
+  border-top-left-radius: 800px;  
+  border-top-right-radius: 800px; 
+  border-bottom: 0;
+  padding: 25px;
+  color: white;
+}
+
+.blackCard, .redCard {
+  height: 120px;
+  width: 80px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.blackCard{
+  color: black;
+}
+
+.redCard {
+  color: red;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
